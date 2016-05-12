@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+}
+
+body {
+	height: 2000px;
+}
+
+.navbar-default {
+	background-color: #ACC4C4;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-brand a {
+	border: thin;
+}
+
+.nav {
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-collapse.in>.nav {
+	background-color: #ACC4C;
+}
+
+A.i18n-link {
+	color: #F7F3EA;
+}
+
+A.i18n-link:HOVER {
+	color: #5e5e5e;
+}
+
+.ml30 {
+	margin-left: 30px;
+}
+
+.mr30 {
+	margin-right: 30px;
+}
+
+.pr30 {
+	padding-right: 30px;
+}
+
+.pl30 {
+	padding-left: 30px;
+}

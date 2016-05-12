@@ -1,4 +1,4 @@
-package com.emailsender.platform.init;
+package com.box.init;
 
 import javax.servlet.Filter;
 import javax.servlet.ServletContext;
@@ -30,7 +30,7 @@ public class ApplicationInitializer extends AbstractAnnotationConfigDispatcherSe
 
 	private AnnotationConfigWebApplicationContext getContext() {
 		AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
-		context.setConfigLocation("com.emailsender.platform.config");
+		context.setConfigLocation("com.box.config");
 		return context;
 	}
 
@@ -41,13 +41,13 @@ public class ApplicationInitializer extends AbstractAnnotationConfigDispatcherSe
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		// TODO Auto-generated method stub
+		// TODO
 		return null;
 	}
 
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
-		// TODO Auto-generated method stub
+		// TODO
 		return null;
 	}
 

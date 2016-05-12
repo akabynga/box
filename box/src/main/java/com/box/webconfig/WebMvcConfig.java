@@ -1,4 +1,4 @@
-package com.emailsender.platform.init;
+package com.box.webconfig;
 
 import java.util.Locale;
 
@@ -23,7 +23,7 @@ import org.springframework.web.servlet.view.JstlView;
 public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		registry.addResourceHandler("/WEB-INF/pages/**").addResourceLocations("/pages/");
+		registry.addResourceHandler("/WEB-INF/**").addResourceLocations("/");
 	}
 
 	@Override
@@ -34,8 +34,8 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 	@Bean
 	public InternalResourceViewResolver jspViewResolver() {
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-		resolver.setPrefix("/WEB-INF/pages/");
-		resolver.setSuffix(".jsp");
+		resolver.setPrefix("/WEB-INF/");
+		resolver.setSuffix(".html");
 		resolver.setViewClass(JstlView.class);
 		return resolver;
 	}

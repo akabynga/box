@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #00AEEF;
 }
 
 h1,
@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #00AEEF;
 }
 
 hr.star-primary {
@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #00AEEF;
 }
 
 header .container {
@@ -168,7 +168,9 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    background-color: white;
 }
+
 
 section {
     padding: 100px 0;
@@ -181,7 +183,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #00AEEF;
 }
 
 section.success a,
@@ -274,7 +276,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #00AEEF;
     background: #fff;
 }
 
@@ -327,7 +329,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #00AEEF;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -456,4 +458,19 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+a {
+  color: #00AEEF;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-brand {
+  color: #00AEEF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #00AEEF;
+  background-color: transparent;
 }
